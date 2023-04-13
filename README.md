@@ -35,10 +35,12 @@ These best hyperparamters together with an epochs of 15 was used in the model tr
 ![Training](snips/Training.PNG)
 
 ## Debugging and Profiling
-**TODO**: Give an overview of how you performed model debugging and profiling in Sagemaker
+smdebug was used in the Model debugging process. In order to monitor how well the model was training, the AWS Sagemaker debugger was used.
+rules, debugger_hook_config, profiler_config, output_path were defined as passed to the estimator during the training process
 
 ### Results
 **TODO**: What are the results/insights did you get by profiling/debugging your model?
+The profiler report can be found in the directory ![Report](ProfilerReport/)
 
 **TODO** Remember to provide the profiler html/pdf file in your submission.
 
