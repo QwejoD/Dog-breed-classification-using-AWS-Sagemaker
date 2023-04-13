@@ -44,4 +44,4 @@ These best hyperparamters together with an epochs of 15 was used in the model tr
 
 
 ## Model Deployment
-![Deployment](endpoint.PNG)
+![Deployment](snips/endpoint.PNG)
