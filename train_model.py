@@ -130,8 +130,6 @@ def net():
         param.requires_grad = False   
 
     num_features=model.fc.in_features
-    '''model.fc = nn.Sequential(
-                   nn.Linear(num_features, 133))'''
     model.fc = nn.Sequential(nn.Linear(num_features, 2054), nn.ReLU(inplace=True), nn.Linear(2054, 128), nn.ReLU(inplace=True), nn.Linear(128, 133))
     return model
 
