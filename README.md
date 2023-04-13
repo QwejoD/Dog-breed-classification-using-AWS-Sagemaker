@@ -40,10 +40,19 @@ rules, debugger_hook_config, profiler_config, output_path were defined as passed
 
 ### Results
 **TODO**: What are the results/insights did you get by profiling/debugging your model?
-The profiler report can be found in the directory ![Report](ProfilerReport/)
+The profiler report can be found in the directory ![ProfilerReport](ProfilerReport/), the ![html file](ProfilerReport/profiler-output/profiler-report.html) in the profier output specifically contains the report 
 
 **TODO** Remember to provide the profiler html/pdf file in your submission.
+Loss Plot 
+![loss](snips/loss.PNG)
 
+####Training Job summary 
+The following table gives a summary about the training job. The table includes information about when the training job started and ended, how much time initialization, training loop and finalization took.
+![Training Job summary](snips/Training-job-summary.PNG)
+
+####Rule summary 
+The following table shows a profiling summary of the Debugger built-in rules. The table is sorted by the rules that triggered the most frequently. During your training job, the GPUMemoryIncrease rule was the most frequently triggered. It processed 1760 datapoints and was triggered 138 times.
+![Rule summary](snips/rule-summary.PNG)
 
 ## Model Deployment
 ![Deployment](snips/endpoint.PNG)
