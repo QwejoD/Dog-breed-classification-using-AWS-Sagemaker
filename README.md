@@ -32,7 +32,7 @@ The best best hyperparameters retrieved from all training jobs were:
 
 ## Model Training 
 These best hyperparamters together with an epochs of 15 was used in the model training on the whole dataset 
-![Alt text](relative%snips/Training.PNG?raw=true "Title")
+![Training](snips/Training.PNG)
 
 ## Debugging and Profiling
 **TODO**: Give an overview of how you performed model debugging and profiling in Sagemaker
@@ -44,4 +44,4 @@ These best hyperparamters together with an epochs of 15 was used in the model tr
 
 
 ## Model Deployment
-![Alt text](relative%20Project3/CD0387-deep-learning-topics-within-computer-vision-nlp-project-starter/endpoint.PNG?raw=true "Title")
+![Alt text]()
