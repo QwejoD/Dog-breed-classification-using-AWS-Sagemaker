@@ -46,11 +46,11 @@ The profiler report can be found in the directory ![ProfilerReport](ProfilerRepo
 Loss Plot 
 ![loss](snips/loss.PNG)
 
-####Training Job summary 
+#### Training Job summary
 The following table gives a summary about the training job. The table includes information about when the training job started and ended, how much time initialization, training loop and finalization took.
 ![Training Job summary](snips/Training-job-summary.PNG)
 
-####Rule summary 
+#### Rule summary 
 The following table shows a profiling summary of the Debugger built-in rules. The table is sorted by the rules that triggered the most frequently. During your training job, the GPUMemoryIncrease rule was the most frequently triggered. It processed 1760 datapoints and was triggered 138 times.
 ![Rule summary](snips/rule-summary.PNG)
 
